@@ -1,5 +1,4 @@
-
-# lab-record-formatter
+# Lab Record Formatter \n A C++ project to format lab records.
 
 A Python-based automation utility designed to parse, format, and structure raw laboratory data and code into clean, submission-ready record formats.
 
