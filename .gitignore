@@ -1,0 +1,10 @@
+# Ignore compiled executables
+*.exe
+*.o
+*.out
+
+# Ignore textbook PDFs
+*.pdf
+
+# Ignore individual experimental files
+Experiment_*.html
