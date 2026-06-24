@@ -1,6 +1,9 @@
-# Lab Record Formatter \n A C++ project to format lab records.
+## Lab Record Formatter
 
-A Python-based automation utility designed to parse, format, and structure raw laboratory data and code into clean, submission-ready record formats.
+A high-performance C++ utility designed to automate the parsing, structuring, and formatting of raw laboratory logs and text files into clean, submission-ready formats. 
+
+## 📌 Overview
+Manually formatting laboratory records, terminal outputs, and experimental data into structured documentation is tedious and prone to human error. This tool automates the process by reading raw text inputs, applying specific syntax and alignment rules, and generating beautifully formatted outputs.
 
 ## Features
 * **Automated Structuring**: Converts unformatted code files and raw text into standard laboratory record layouts.
