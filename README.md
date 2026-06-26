@@ -13,7 +13,7 @@ Manually formatting laboratory records, terminal outputs, and experimental data 
 ## Getting Started
 
 ### Prerequisites
-Make sure you have a C++ compiler (like g++) installed on your system.
+Make sure you have a C++ compiler (like g++) installed on your system 
 
 ```bash
 g++ --version
