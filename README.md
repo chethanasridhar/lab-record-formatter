@@ -2,7 +2,7 @@
 
 A high-performance C++ utility designed to automate the parsing, structuring, and formatting of raw laboratory logs and text files into clean, submission-ready formats. 
 
-## 📌 Overview
+## Overview
 Manually formatting laboratory records, terminal outputs, and experimental data into structured documentation is tedious and prone to human error. This tool automates the process by reading raw text inputs, applying specific syntax and alignment rules, and generating beautifully formatted outputs.
 
 ## ## Features
