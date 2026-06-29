@@ -1,20 +1,37 @@
-📒 Lab Record Formatter
+# Lab Record Formatter
 
-A lightweight C++17 command-line utility that automatically transforms raw laboratory records into clean, structured, submission-ready documents.
+A lightweight command-line utility written in **C++17** that automatically transforms raw laboratory records into clean, structured, and submission-ready documents.
 
-Instead of manually formatting experiment records, source code, terminal outputs, and observations, Lab Record Formatter parses raw text files and produces neatly organized records with consistent formatting in seconds.
+Instead of manually formatting experiment records, source code, terminal outputs, and observations, **Lab Record Formatter** parses unstructured text and generates consistently formatted records in seconds.
 
-✨ Features
-📑 Automatically structures laboratory records
-💻 Preserves source code indentation and formatting
-🖥 Formats terminal outputs while maintaining alignment
-🧹 Removes unnecessary blank lines and trailing whitespace
-📄 Produces clean, consistent, submission-ready documents
-⚡ Fast processing using only the C++ Standard Library
-🔧 Easily customizable formatting rules
-🚫 Zero external dependencies
-📸 Example
-Input
+---
+
+## Overview
+
+Preparing laboratory records often involves repetitive formatting rather than actual programming. This project automates that process by identifying logical sections, cleaning inconsistent formatting, preserving source code readability, and producing professional-looking documentation with minimal effort.
+
+The application is lightweight, portable, and relies solely on the C++ Standard Library.
+
+---
+
+## Features
+
+* Automatic organization of laboratory records into structured sections
+* Preservation of source code indentation and formatting
+* Proper formatting of terminal outputs while maintaining alignment
+* Removal of unnecessary blank lines and trailing whitespace
+* Consistent document formatting suitable for academic submissions
+* Fast processing with minimal memory overhead
+* Customizable formatting rules
+* Zero external dependencies
+
+---
+
+## Example
+
+### Input
+
+```text
 Experiment : 5
 
 write a program
@@ -25,10 +42,11 @@ code
 #include<iostream>
 using namespace std;
 ...
+```
 
-↓
+### Output
 
-Output
+```text
 ==================================
         EXPERIMENT - 5
 ==================================
@@ -55,27 +73,39 @@ using namespace std;
 Output
 ------
 Stack Created Successfully
-🚀 Why This Project?
+```
 
-Preparing laboratory records is often more about formatting than actual programming.
+---
 
-This tool automates the repetitive work by:
+## Motivation
 
-organizing experiment sections
-cleaning inconsistent formatting
-preserving code readability
-generating professional-looking records
+Laboratory documentation is a repetitive and time-consuming task. Formatting experiment titles, source code, outputs, and observations manually often takes considerably longer than writing the program itself.
 
-Instead of spending 20–30 minutes formatting, you can generate a polished record in seconds.
+Lab Record Formatter eliminates this overhead by automatically:
 
-🛠 Built With
-C++17
-Standard Template Library (STL)
-fstream
-String Processing
-Stream Manipulation
-Object-Oriented Programming
-📂 Project Structure
+* Structuring experiment sections
+* Cleaning inconsistent formatting
+* Preserving code readability
+* Producing professional, submission-ready records
+
+What typically takes 20–30 minutes can be completed in just a few seconds.
+
+---
+
+## Technologies Used
+
+* C++17
+* Standard Template Library (STL)
+* File Handling (`fstream`)
+* String Processing
+* Stream Manipulation
+* Object-Oriented Programming
+
+---
+
+## Project Structure
+
+```text
 Lab-Record-Formatter/
 │
 ├── cpp1.cpp          # Main source file
@@ -83,105 +113,165 @@ Lab-Record-Formatter/
 ├── output.txt        # Generated formatted record
 ├── README.md
 └── LICENSE
-⚙ Getting Started
-Prerequisites
+```
+
+---
+
+## Getting Started
+
+### Prerequisites
 
 Install any C++17-compatible compiler.
 
-Example:
-
+```bash
 g++ --version
-Clone the Repository
+```
+
+### Clone the Repository
+
+```bash
 git clone https://github.com/yourusername/Lab-Record-Formatter.git
 cd Lab-Record-Formatter
-Compile
+```
+
+### Compile
+
+```bash
 g++ cpp1.cpp -std=c++17 -o formatter
-Run
+```
 
-Linux/macOS
+### Run
 
+**Linux / macOS**
+
+```bash
 ./formatter
+```
 
-Windows
+**Windows**
 
+```bash
 formatter.exe
-📄 How It Works
-Raw Text
-    │
-    ▼
-Read File
-    │
-    ▼
-Parse Content
-    │
-    ▼
-Clean Formatting
-    │
-    ▼
-Identify Sections
-    │
-    ▼
-Generate Structured Output
-📋 Processing Pipeline
+```
 
-The formatter performs several transformations:
+---
 
-Reads raw laboratory records from a text file
-Detects logical sections such as title, algorithm, program, and output
-Removes redundant whitespace
-Preserves indentation for source code
-Formats terminal output blocks
-Writes the final structured document to an output file
+## How It Works
 
+```text
+Raw Laboratory Record
+          │
+          ▼
+      Read Input
+          │
+          ▼
+     Parse Sections
+          │
+          ▼
+  Clean & Normalize Text
+          │
+          ▼
+ Detect Logical Components
+          │
+          ▼
+ Generate Formatted Record
+          │
+          ▼
+      Write Output
+```
 
-📚 Use Cases
-Programming laboratory records
-College practical submissions
-Terminal session documentation
-Assignment formatting
-Code report generation
-Experiment documentation
+---
 
-📈 Advantages
-Saves documentation time
-Produces consistent formatting
-Improves readability
-Lightweight and portable
-Easy to customize
-No third-party libraries required
+## Processing Pipeline
 
-🔮 Roadmap
+The formatter performs the following steps:
 
-Planned improvements include:
+1. Reads the raw laboratory record from an input file.
+2. Parses the document to identify logical sections.
+3. Removes redundant whitespace and blank lines.
+4. Preserves indentation within source code blocks.
+5. Formats terminal outputs without affecting alignment.
+6. Generates a structured, consistent laboratory record.
+7. Writes the formatted document to the output file.
 
- GUI application
- PDF export
- Markdown export
- HTML report generation
- Syntax highlighting
- Multiple formatting templates
- Batch processing
- Cross-platform releases
-🤝 Contributing
+---
 
-Contributions are welcome!
+## Applications
 
-Fork the repository
-Create a feature branch
+* Programming laboratory records
+* Practical examination documentation
+* Assignment formatting
+* Terminal session documentation
+* Experiment reports
+* Academic record preparation
+
+---
+
+## Advantages
+
+* Reduces documentation time
+* Produces consistent formatting
+* Improves readability
+* Lightweight and portable
+* Easy to extend and customize
+* No third-party libraries required
+
+---
+
+## Future Enhancements
+
+Planned features include:
+
+* Graphical User Interface (GUI)
+* PDF export
+* Markdown export
+* HTML report generation
+* Syntax highlighting
+* Multiple formatting templates
+* Batch processing
+* Cross-platform executable releases
+
+---
+
+## Contributing
+
+Contributions are welcome.
+
+1. Fork the repository.
+2. Create a new feature branch.
+
+```bash
 git checkout -b feature/new-feature
-Commit your changes
+```
+
+3. Commit your changes.
+
+```bash
 git commit -m "Add new feature"
-Push the branch
+```
+
+4. Push the branch.
+
+```bash
 git push origin feature/new-feature
-Open a Pull Request
-📄 License
+```
 
-Distributed under the MIT License.
+5. Open a Pull Request.
 
-👨‍💻 Author
+---
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+---
+
+## Author
 
 Developed to simplify laboratory documentation through automation using modern C++.
 
-⭐ Show Your Support
+---
 
-If you found this project useful, consider giving it a ⭐ Star. It helps others discover the project and supports future improvements.
+## Support
+
+If you find this project useful, consider starring the repository. Your support helps improve the project and makes it easier for others to discover it.
