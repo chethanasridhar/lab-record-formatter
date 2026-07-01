@@ -204,6 +204,8 @@ The formatter performs the following steps:
 * Terminal session documentation
 * Experiment reports
 * Academic record preparation
+* Helps the teacher in fast evaluation of multiple records of students thereby saving time
+* economical 
 
 ---
 
