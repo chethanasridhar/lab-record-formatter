@@ -11,7 +11,7 @@ Instead of manually formatting experiment records, source code, terminal outputs
 Preparing laboratory records often involves repetitive formatting rather than actual programming. This project automates that process by identifying logical sections, cleaning inconsistent formatting, preserving source code readability, and producing professional-looking documentation with minimal effort.
 
 The application is lightweight, portable, and relies solely on the C++ Standard Library.
-
+ 
 ---
 
 ## Features
